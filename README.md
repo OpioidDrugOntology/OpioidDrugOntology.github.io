@@ -43,5 +43,4 @@ OpioidDrugOntology.github.io/
 
 ---
 ## 📜 License
----
 This site and its contents are released under the **MIT License**.  

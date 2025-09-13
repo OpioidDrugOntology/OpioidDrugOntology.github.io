@@ -1,0 +1,132 @@
+﻿Column mapping (2025),UI Final Column Names (2025),View (2025),,Biochemical format,Cell-based format,Tissue-based format,Organism-based format,View
+chembl_compound_id,ChEMBL Compound ID,all,,Structure,Structure,Structure,Structure,all
+pubchem_cid,PubChem CID,all,,IUPAC Names,IUPAC Names,IUPAC Names,IUPAC Names,all
+rdkit_library_standard_inchi,Standard InChI,all,,PubChem CID,PubChem CID,PubChem CID,PubChem CID,all
+rdkit_library_standard_inchi_key,Standard InChI Key,all,,Molecular Weight,Molecular Weight,Molecular Weight,Molecular Weight,all
+rdkit_canonical_smiles,Canonical SMILES,all,,Bioassay_1,Bioassay_1,Bioassay_1,Bioassay_1,all
+pubchem_iupac_name,IUPAC Names,all,,Bioassay_2,Bioassay_2,Bioassay_2,Bioassay_2,all
+rdkit_molecular_formula,Molecular Formula,all,,Assay,Assay,Assay,Assay,all
+rdkit_molecular_weight,Molecular Weight,all,,Experimental Setting,Experimental Setting,Experimental Setting,Experimental Setting,all
+rdkit_parent_structure_smiles,Parent Structure Canonical SMILES,all,,Cell-line,Cell-line,,,biochemical fomat; cell-based format
+rdkit_parent_structure_inchi,Parent Structure Standard InChI,all,,Tissue Name,,Tissue Name,,biochemical fomat; tissue-based format
+rdkit_parent_structure_inchi_key,Parent Structure Standard InChI Key,all,,Reference Hot Compound,,,,biochemical
+rdkit_parent_structure_molecular_formula,Parent Structure Molecular Formula,all,,Single Concentration Screen,Single Concentration Screen,Single Concentration Screen,Single Concentration Screen,all
+rdkit_parent_structure_molecular_weight,Parent Structure Molecular Weight,all,,Reference Compound,Reference Compound,Reference Compound,Reference Compound,all
+reference_radiolabeled_molecular_entity,Reference Hot Compound,all,,,,,Organism Strain,organism-based format
+chembl_molecule_max_phase,Max Clin Phase,all,,,,,Animal Model,organism-based format
+chembl_#ro5_violations,#RO5 Violations,all,,,,,Route of Administration,organism-based format
+chembl_alogp,AlogP,all,,,,,,biochemical fomat; cell-based format; tissue-based format
+bao_reference_compound,Reference Compound,all,,Protein Name,Protein Name,Protein Name,Protein Name,all
+dose_reference_compound,Reference Compound Dose,all,,Endpoint,Endpoint,Endpoint,Endpoint,all
+qikprop_dipole,Dipole Moment,all,,Endpoint Qualifier,Endpoint Qualifier,Endpoint Qualifier,Endpoint Qualifier,all
+qikprop_sasa,Solvent Surface Area,all,,Endpoint Value,Endpoint Value,Endpoint Value,Endpoint Value,all
+qikprop_fisa,Hydrophilic Surface Area,all,,Unit,Unit,Unit,Unit,all
+qikprop_donor_hb,HB Donors,all,,ChEMBL pValue,ChEMBL pValue,ChEMBL pValue,ChEMBL pValue,all
+qikprop_accpt_hb,HB Acceptors,all,,Document DOI,Document DOI,Document DOI,Document DOI,all
+qikprop_qplog_pw,Octanol-Water Partition,all,,,,,,
+qikprop_qplog_po/w,LogP,all,,,,,,
+qikprop_qplogs,Aqueous Solubility,all,,,,,,
+qikprop_qplog_khsa,Albumin Binding,all,,,,,,
+qikprop_percent_human_oral_absorption,% Human Oral Absorption,all,,,,,,
+chembl_chemical_entity_name,ChEMBL Compound Name,all,,,,,,
+chembl_chemical_entity_key,ChEMBL Compound Key,all,,,,,,
+chembl_assay_id,ChEMBL Assay ID,all,,,,,,
+bao_experimental_setting,Experimental Setting,all,,,,,,
+bao_experimental_setting_id,Experimental Setting ID,all,,,,,,
+compound_pharmacological_role,Compound MOA,all,,,,,,
+chebi_compound_pharmacological_role_id,Compound MOA ID,all,,,,,,
+compound_pharmacological_role_unmapped,Compound MOA (unmapped),all,,,,,,
+chembl_binding_site_description,Binding Site Description,all,,,,,,
+bao_bioassay_1,Bioassay (1),all,,,,,,
+bao_bioasssay_1_id,Bioassay (1) ID,all,,,,,,
+bao_bioassay_2,Bioassay (2),all,,,,,,
+bao_bioasssay_2_id,Bioassay (2) ID,all,,,,,,
+bao_bioassay_type,Bioassay Type,all,,,,,,
+bao_bioassay_type_id,BAO Bioassay Type ID,all,,,,,,
+subcellular_format,Subcellular Format,"biochemical fomat, tissue-based format",,,,,,
+bao_subcellular_format_id,Subcellular Format ID (BAO),"biochemical fomat, tissue-based format",,,,,,
+subcellular_format_unmapped,Subcellular Format (unmapped),"biochemical fomat, tissue-based format",,,,,,
+bao_assay_format,Assay Format,all,,,,,,
+bao_assay_format_id,Assay Format ID (BAO),all,,,,,,
+bao_assay_format_l2,Assay Format Level 2,"biochemical fomat, tissue-based format",,,,,,
+bao_assay_format_l2_id,Assay Format Level 2 ID,"biochemical fomat, tissue-based format",,,,,,
+bao_assay_format_l3,Assay Format Level 3,"biochemical fomat, tissue-based format",,,,,,
+bao_assay_format_l3_id,Assay Format Level 3 ID,biochemical fomat; cell-based format,,,,,,
+bao_assay_method,Assay Method,cell-based format,,,,,,
+bao_assay_method_id,Assay Method ID,cell-based format,,,,,,
+physical_detection_method,Physical Detection Method,all,,,,,,
+physical_detection_method_id,Physical Detection Method ID,all,,,,,,
+assay_kit,Assay Kit,cell-based format,,,,,,
+bao_assay_kit_id,BAO Assay Kit ID,cell-based format,,,,,,
+assay_kit_unmapped,Assay kit (unmapped),cell-based format,,,,,,
+assay_description,Assay Description,cell-based format,,,,,,
+odo_assay,Assay,all,,,,,,
+chembl_assay_property,Chembl Assay Properties,all,,,,,,
+odo_functional_bias_assay_1,Bias Assay (1),biochemical fomat; cell-based format,,,,,,
+odo_functional_bias_assay_2,Bias Assay (2),biochemical fomat; cell-based format,,,,,,
+chembl_assay_parameters,Assay Parameters (ChEMBL),biochemical fomat; cell-based format,,,,,,
+odo_assay_property,Curated Assay Properties,all,,,,,,
+single_concentration_screen,Single Concentration Screen,biochemical fomat; tissue-based format,,,,,,
+cell_line_name,Cell Line Name,biochemical fomat; cell-based format,,,,,,
+cellosaurus_cell_line_id,Cellosaurus Cell-Line Name ID,biochemical fomat; cell-based format,,,,,,
+clo_cell_line_id,CLO Cell-Line ID,biochemical fomat; cell-based format,,,,,,
+cell_line_unmapped,Cell Line Name (unmapped),biochemical fomat; cell-based format,,,,,,
+bias_assay_2_cell_line,Bias Assay (2) Cell Line,cell-based format,,,,,,
+mba_tissue_id,MBA Tissue ID,biochemical fomat; tissue-based format,,,,,,
+pato_tissue_id,PATO Tissue ID,biochemical fomat; tissue-based format,,,,,,
+tissue_name,Tissue Name,biochemical fomat; tissue-based format,,,,,,
+bto_tissue_id,BTO Tissue ID,biochemical fomat; tissue-based format,,,,,,
+tissue_unmapped,Tissue Name (unmapped),biochemical fomat; tissue-based format,,,,,,
+ncbi_tissue_taxonomy,NCBI Tissue Taxonomy,biochemical fomat; tissue-based format,,,,,,
+ncbi_tissue_taxonomy_id,NCBI Tissue Taxonomy ID,biochemical fomat; tissue-based format,,,,,,
+ncit_animal_model,Animal Model (NCIT),organism-based format,,,,,,
+ncit_animal_model_strain,Organism Strain (NCBI),organism-based format,,,,,,
+ncit_animal_model_strain_id,Organism Strain ID (NCIT),organism-based format,,,,,,
+mgi_animal_strain_id,Organism Strain ID (MGI),organism-based format,,,,,,
+ncit_vertebrate_taxonomy,Animal Model Taxonomy (NCIT),organism-based format,,,,,,
+ncit_vertebrate_taxonomy_id,Animal Model Taxonomy ID,organism-based format,,,,,,
+ncit_model_system,Model System,all,,,,,,
+ncit_model_system_id,Model System ID (NCIT),all,,,,,,
+uniprot_protein_id,Protein UniProt ID,all,,,,,,
+interpro_protein_family_name,Protein Family Name (InterPro),all,,,,,,
+interpro_protein_family_name_id,InterPro Protein Family Name ID,all,,,,,,
+ncit_protein_subfamily_name,Protein Subfamily (NCIT),all,,,,,,
+ncit_protein_subfamily_name_id,NCIT Protein Subfamily ID,all,,,,,,
+interpro_protein_category_id,Protein Category (InterPro),all,,,,,,
+interpro_protein_category,InterPro Protein Category ID,all,,,,,,
+dto_gpcr_category,GPCR Category,all,,,,,,
+dto_gpcr_category_id,DTO GPCR Category ID,all,,,,,,
+protein_name,Protein Name,all,,,,,,
+pro_protein_name_id,PRO Protein Name ID,all,,,,,,
+target_name,Target Name,all,,,,,,
+chembl_target_id,ChEMBL Target ID,all,,,,,,
+target_type,Target Type,all,,,,,,
+ncbi_target_taxonomy,Target Taxonomy (NCBI),all,,,,,,
+ncbi_target_taxonomy_id,NCBI Taxonomy ID,all,,,,,,
+endpoint,Endpoint,all,,,,,,
+endpoint_qualifier,Endpoint Qualifier,all,,,,,,
+endpoint_value,Endpoint Value,all,,,,,,
+sem_endpoint_qualifier,Standard error qualifier,all,,,,,,
+sem_value,SEM Value,all,,,,,,
+cl_lower_95%,95% Confidence level (lower),biochemical fomat; cell-based format; organism-based format,,,,,,
+cl_upper_95%,95% Confidence level (upper),biochemical fomat; cell-based format; organism-based format,,,,,,
+unit_of_measurement,Units,all,,,,,,
+pchembl_value,ChEMBL pValue,all,,,,,,
+uo_id,Units Ontology ID,all,,,,,,
+odo_assay_endpoint_description,EndPoint Description,all,,,,,,
+chembl_dose_administered,Administered Dose (in vivo),organism-based format,,,,,,
+ncit_route_of_administration,Route of Administration,organism-based format,,,,,,
+ncit_route_of_administration_id,Route of Administration ID,organism-based format,,,,,,
+embl_ebi_gpcr_signaling_pathway,GPCR Signaling Pathway,all,,,,,,
+embl_ebi_gpcr_signaling_pathway_id,GPCR Signaling Pathway ID,all,,,,,,
+mi_database_citation,Assay Data Repository Source,all,,,,,,
+mi_database_citation_id,Assay Data Repository Source ID,all,,,,,,
+pubmed_id,PubMed ID,all,,,,,,
+document_doi,DOI,all,,,,,,
+chembl_document_id,Chembl Document ID,all,,,,,,
+source_description,Source Description,all,,,,,,
+chembl_source_id,Chembl Source Description ID,all,,,,,,
+document_journal,Journal,all,,,,,,
+document_year,Journal Year,all,,,,,,
+patent_id,Patent ID,biochemical fomat; cell-based format,,,,,,
+odo_supplementary_reference,Supplementary Reference,biochemical fomat; cell-based format; tissue-based format,,,,,,

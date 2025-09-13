@@ -26,6 +26,7 @@ Column names and main filtering views for the ODO Data Portal user interface.
 
 ---
 📂 Repository Structure
+---
 ```pre
 OpioidDrugOntology.github.io/
 ├─ index.html                  # Website homepage
@@ -38,8 +39,8 @@ OpioidDrugOntology.github.io/
 └─ README.md
 ```
 
----
-🔗 Live Website
 
+🔗 Live Website
+---
 Visit the ODO Data Portal landing page:
 👉 https://opioiddrugontology.github.io

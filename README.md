@@ -41,6 +41,3 @@ OpioidDrugOntology.github.io/
 └─ README.md
 ```
 
----
-## 📜 License
-This site and its contents are released under the **MIT License**.  

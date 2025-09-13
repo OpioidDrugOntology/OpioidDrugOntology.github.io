@@ -4,6 +4,9 @@
 This repository hosts the GitHub Pages site for the Opioid Drug Ontology (ODO) Data Portal:
 👉 https://opioiddrugontology.github.io
 
+The official ODO Data Portal is available at:  
+👉 https://opioiddrugontology.org
+
 The site provides access to curated datasets, database schema, and user interface (UI) specifications that support the ODO Data Portal.
 
 ---

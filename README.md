@@ -41,3 +41,13 @@ OpioidDrugOntology.github.io/
 └─ README.md
 ```
 
+---
+Notes
+---
+The Opioid Drug Ontology (ODO) terms are not maintained as a standalone ontology.
+
+Instead, selected ODO metadata categories and terms are being incorporated directly into the BioAssay Ontology (BAO) on an ongoing basis.
+
+This ensures alignment with a widely adopted ontology and allows metadata generated from the ODO Data Portal to be FAIR, interoperable, and reusable without introducing redundant schema.
+
+All term requests, mappings, and ontology discussions are tracked through the BAO GitHub repository, with references documented in this portal for transparency.

@@ -27,6 +27,22 @@ ODO UI Columns and Filters (CSV)
 Column names and main filtering views for the ODO Data Portal user interface.
 
 ---
+🔎 UI Search and Filtering
+---
+The ODO Data Portal provides flexible search and filtering options to help users explore the dataset efficiently:
+
+Pre-aligned views
+Data can be browsed through pre-configured views based on assay format (biochemical, cell-based, tissue-based, or organism-based). Each view highlights metadata most relevant to that format (e.g., cell line for cell-based assays, organism strain for organism-based assays).
+
+Custom filtering
+Within each view, users can refine searches using available metadata fields such as compound identifiers, protein targets, endpoints, and units.
+
+Download options
+Any filtered view can be exported for offline use. For maximum flexibility, the complete dataset with all metadata columns is available as a download, while the interactive UI is limited to ~20 visible columns at a time.
+
+For details on available columns and filter options, see odo_ui_columns_and_filters.csv in the GitHub repository
+
+---
 📂 Repository Structure
 ---
 ```pre

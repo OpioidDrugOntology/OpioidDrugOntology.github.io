@@ -1,4 +1,4 @@
-# ODO Website (Opioid Drug Ontology Portal)
+# ODO Website (Opioid Drug Ontology Data  Portal)
 
 
 This repository hosts the GitHub Pages site for the Opioid Drug Ontology (ODO) Data Portal:       
